@@ -30,7 +30,7 @@ export function Popup() {
   };
 
   return (
-    <main className="popup-shell flex h-[600px] w-[440px] flex-col gap-2 overflow-y-auto p-3">
+    <main className="popup-shell flex h-[400px] w-[220px] flex-col gap-2 overflow-y-auto p-3">
       <header className="popup-header flex items-center gap-2.5">
         <LogoMark size={28} />
         <div className="min-w-0">
