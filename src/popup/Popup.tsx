@@ -67,7 +67,7 @@ export function Popup() {
         </label>
       </div>
 
-      <div className="popup-editor min-h-[280px] flex-1">
+      <div className="popup-editor min-h-[100px] flex-1">
         <InputEditor
           ref={editor}
           value={c.text}
